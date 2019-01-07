@@ -1,0 +1,50 @@
+h2 {
+  font-family: sans-serif;
+  color: white;
+  text-align: center;
+  font-weight: bold;
+}
+
+.controls {
+  margin-bottom: 50px;
+  color: white;
+  font-family: sans-serif;
+  font-size: 1.25rem;
+  display: block;
+  position: relative;
+}
+
+body {
+  background-color: #1E487B;
+  color: white;
+  text-align: center;
+}
+
+img {
+  border: 10px solid white;
+  border-radius: 10px;
+  margin: 0 auto;
+  position: relative;
+  display: block;
+}
+
+/* css varibales declaration */
+:root {
+  --base: yellow;
+  --spacing: 10px;
+  --blur: 10px;
+}
+
+img {
+  padding: var(--spacing);
+  background: var(--base);
+  filter: blur(var(--blur));
+}
+
+.h1 {
+  color: var(--base);
+
+}
+input {
+  width: 100px;
+}
