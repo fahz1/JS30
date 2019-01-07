@@ -17,7 +17,7 @@ body {
 kbd {
   display: block;
   font-size: 40px;
-  
+
 }
 
 .key {
@@ -38,4 +38,8 @@ kbd {
 
 .keys {
   display: block;
+}
+
+bo {
+
 }
